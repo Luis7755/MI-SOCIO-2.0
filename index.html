@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Socio 2.0 - Película Boliviana</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+    <style>
+        .hero-section {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+                        url('https://cdn.bolivia.com/sdi/2022/01/04/mi-socio-20-atrasa-estreno-2022-985208.webp');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 150px 0;
+        }
+        .actor-card img {
+            height: 300px;
+            object-fit: cover;
+        }
+        .location-card img {
+            height: 200px;
+            object-fit: cover;
+        }
+        .awards-section {
+            background-color: #f8f9fa;
+        }
+        .custom-navbar {
+            background-color: rgba(0, 0, 0, 0.9);
+        }
+        .gallery-img {
+            height: 200px;
+            object-fit: cover;
+        }
+        .soundtrack-section {
+            background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+                        url('/api/placeholder/1920/1080');
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark custom-navbar fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Mi Socio 2.0</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sinopsis">Sinopsis</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#elenco">Elenco</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#locaciones">Locaciones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#soundtrack">Música</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#premios">Premios</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero-section">
+        <div class="container text-center">
+            <h1 class="display-2 fw-bold mb-4">Mi Socio 2.0</h1>
+            <p class="lead mb-4">Una historia de amistad, tecnología y tradición en el corazón de Bolivia</p>
+            <a href="https://www.youtube.com/watch?v=BQsRaDqtGsM" target="_blank">
+                <button class="btn btn-primary btn-lg me-3">
+                    <i class="fas fa-play me-2"></i>Ver Trailer
+                </button>
+            </a>
+            <a href="https://www.youtube.com/watch?v=ENLACE_DE_LA_PELICULA" target="_blank">
+                <button class="btn btn-outline-light btn-lg">
+                    <i class="fas fa-ticket-alt me-2"></i>Ver Pelicula
+                </button>
+            </a>
+        </div>
+    </section>
+
+    <!-- Sinopsis Section -->
+    <section id="sinopsis" class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2 class="mb-4">Sinopsis</h2>
+                    <p class="lead">Una moderna adaptación del clásico "Mi Socio" que explora la relación entre un experimentado camionero y su joven aprendiz en la era digital.</p>
+                    <p>La película aborda temas como la brecha generacional, la llegada de la tecnología a las tradiciones bolivianas y el valor imperecedero de la amistad en un mundo cambiante.</p>
+                    <div class="mt-4">
+                        <h5>Detalles Técnicos</h5>
+                        <ul class="list-unstyled">
+                            <li><strong>Director:</strong> Paolo Agazzi</li>
+                            <li><strong>Duración:</strong> 105 minutos</li>
+                            <li><strong>Año:</strong> 20</li>
+                            <li><strong>País:</strong> Bolivia</li>
+                            <li><strong>Género:</strong> Drama / Road Movie</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="https://construmarket.com.bo/wp-content/uploads/2022/02/Mi-Socio-thegem-blog-timeline-large.jpeg" alt="Escena de Mi Socio 2.0" class="img-fluid rounded shadow">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cast Section -->
+    <section id="elenco" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Elenco Principal</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card actor-card h-100">
+                        <img src="https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2021/5/2/santalla1.jpg?itok=tAXvEF0G" class="card-img-top" alt="Actor 1">
+                        <div class="card-body">
+                            <h5 class="card-title">David Santalla</h5>
+                            <p class="card-text text-muted">Como Vito</p>
+                            <p class="card-text">Interpreta al experimentado camionero que debe adaptarse a los cambios tecnológicos.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card actor-card h-100">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgq7mQLl3SNMUknAgFK3C3vdFVOKmFzPO2CMP9cwQwGl7vjuZhGftvXmkzruSON1PpR1UMeRO9u7SdmXdaBIz8cA" class="card-img-top" alt="Actor 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Gerardo Suarez</h5>
+                            <p class="card-text text-muted">Como Brillo</p>
+                            <p class="card-text">Da vida al joven tecnológico que aprenderá el valor de las tradiciones.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card actor-card h-100">
+                        <img src="https://cdn.correodelsur.com/img/contents/images_980/2022/06/05/f80c5df5-daed-4859-b4b4-dcc2d6b8861e.jpg" class="card-img-top" alt="Actor 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Hugo Pozo</h5>
+                            <p class="card-text text-muted">Como Jacinto</p>
+                            <p class="card-text">Representa el puente entre la tradición y la modernidad en la historia.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Locations Section -->
+    <section id="locaciones" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Locaciones</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card location-card h-100">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-Z_dNx2R-NxSJNNIZSVJhiJLcF5sO4C5E9Q&s" class="card-img-top" alt="La Paz">
+                        <div class="card-body">
+                            <h5 class="card-title">La Paz</h5>
+                            <p class="card-text">Las escenas urbanas fueron filmadas en el corazón de la ciudad de La Paz.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card location-card h-100">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG6mPJwlMNhqbBdkGj6Bbc9tyg4Z-FtGQRPw&s" class="card-img-top" alt="Carretera">
+                        <div class="card-body">
+                            <h5 class="card-title">Ruta La Paz - Santa Cruz</h5>
+                            <p class="card-text">Gran parte del viaje se filmó en la carretera que une estas dos ciudades.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card location-card h-100">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHPHiHDbT8pRqhNDJ1xnzUnByS1P_zmyPWIw&s" class="card-img-top" alt="Santa Cruz">
+                        <div class="card-body">
+                            <h5 class="card-title">Santa Cruz</h5>
+                            <p class="card-text">Las escenas finales fueron rodadas en diversos puntos de Santa Cruz.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="soundtrack" class="soundtrack-section py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Banda Sonora</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="card bg-dark text-white">
+                        <div class="card-body">
+                            <div class="list-group list-group-flush">
+                                <div class="list-group-item bg-dark text-white d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <h6 class="mb-0">Mi Socio 2.0 - Tema Principal</h6>
+                                        <small>Compuesto por César Junaro</small>
+                                    </div>
+                                    <button class="btn btn-outline-light btn-sm play-button" data-audio="audio/MiSocio.mp3">
+                                        <i class="fas fa-play"></i>
+                                    </button>
+                                </div>
+                                <div class="list-group-item bg-dark text-white d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <h6 class="mb-0">Caminos de Bolivia</h6>
+                                        <small>Por Los Kjarkas</small>
+                                    </div>
+                                    <button class="btn btn-outline-light btn-sm play-button" data-audio="audio/CaminoMontana.mp3">
+                                        <i class="fas fa-play"></i>
+                                    </button>
+                                </div>
+                                <div class="list-group-item bg-dark text-white d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <h6 class="mb-0">Viaje al Amanecer</h6>
+                                        <small>Instrumental por Emma Junaro</small>
+                                    </div>
+                                    <button class="btn btn-outline-light btn-sm play-button" data-audio="audio/Quiero.mp3">
+                                        <i class="fas fa-play"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <!-- Awards Section -->
+    <section id="premios" class="awards-section py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Premios y Reconocimientos</h2>
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-4">
+                    <div class="card text-center h-100">
+                        <div class="card-body">
+                            <i class="fas fa-trophy fa-3x text-warning mb-3"></i>
+                            <h5 class="card-title">Mejor Película</h5>
+                            <p class="card-text">Festival Internacional de Cine de Santa Cruz 2019</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-center h-100">
+                        <div class="card-body">
+                            <i class="fas fa-film fa-3x text-primary mb-3"></i>
+                            <h5 class="card-title">Mejor Guión</h5>
+                            <p class="card-text">Premio Nacional de Cine de Bolivia 2019</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-center h-100">
+                        <div class="card-body">
+                            <i class="fas fa-star fa-3x text-danger mb-3"></i>
+                            <h5 class="card-title">Mejor Fotografía</h5>
+                            <p class="card-text">Festival de Cine Latinoamericano 2020</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Mi Socio 2.0</h5>
+                    <p>Una producción boliviana que une generaciones</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Síguenos</h5>
+                    <div class="d-flex gap-3">
+                        <a href="#" class="text-white"><i class="fab fa-facebook fa-lg"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-twitter fa-lg"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-instagram fa-lg"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-youtube fa-lg"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contacto</h5>
+                    <p><i class="fas fa-envelope me-2"></i>contacto@misocio2.bo</p>
+                </div>
+            </div>
+            <hr>
+            <div class="text-center">
+                <small>&copy; 2024 Mi Socio 2.0. Todos los derechos reservados.</small>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Crear un elemento de audio global
+        let currentAudio = new Audio();
+        let currentlyPlayingButton = null; // Referencia al botón que está activo
+    
+        // Obtener todos los botones de reproducción
+        document.querySelectorAll('.play-button').forEach(button => {
+            button.addEventListener('click', function () {
+                const audioSrc = this.getAttribute('data-audio');
+                
+                // Si el botón actual ya está activo, pausar o reiniciar
+                if (currentlyPlayingButton === this) {
+                    if (currentAudio.paused) {
+                        currentAudio.play();
+                        this.querySelector('i').classList.replace('fa-play', 'fa-pause');
+                    } else {
+                        currentAudio.pause();
+                        this.querySelector('i').classList.replace('fa-pause', 'fa-play');
+                    }
+                    return;
+                }
+    
+                // Si hay otro audio sonando, detenerlo y resetear su botón
+                if (currentlyPlayingButton) {
+                    currentlyPlayingButton.querySelector('i').classList.replace('fa-pause', 'fa-play');
+                }
+    
+                // Reproducir el nuevo archivo
+                currentAudio.src = audioSrc;
+                currentAudio.play();
+                this.querySelector('i').classList.replace('fa-play', 'fa-pause');
+                currentlyPlayingButton = this;
+            });
+        });
+    
+        // Resetear botón cuando el audio termina
+        currentAudio.addEventListener('ended', () => {
+            if (currentlyPlayingButton) {
+                currentlyPlayingButton.querySelector('i').classList.replace('fa-pause', 'fa-play');
+                currentlyPlayingButton = null;
+            }
+        });
+    </script>
+    
